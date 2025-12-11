@@ -27,122 +27,64 @@ Video trình bày:
 
 ### Phần 1 - Nhấp nháy LED với Systick (HAL) trên STM32
 
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
+
 > [[7S - N16] Video nhấp nháy LED với SysTick (HAL) – Phần 1](https://drive.google.com/file/d/17cQ2f_ty3O_-Vn1Wuj1U5wM46kwlum9t/view?usp=sharing)
 
-> [[7S - N16] VIdeo nhấp nháy LED với SysTick (HAL) trên STM32 – Phần 2 (Điều chỉnh tần số)](https://drive.google.com/file/d/1gvZQGouSlzX1wQB8T25jtVudOyVjRGSu/view?usp=sharing)
+Phần mềm sử dụng : KeilC, CubeMx, proteus
 
-Phần mềm sử dụng
-- STM32CubeIDE
 
-### 📥 Link tải phần mềm  
-[STM32CubeIDE – STMicroelectronics](link ...)
 
-### 📄 Link code nếu có  
-(Code chưa bổ sung)
+### Phần 2 - Điều chỉnh tần số led sáng với Systick (HAL) trên STM32
 
----
-
-# 3. Video Modify SysTick + Bài tập LED
-
-### Video:
-- **[7S - N16] Nhấp nháy LED với SysTick (HAL) – Phần 2 (Điều chỉnh tần số)**  
-  [Video Phần 2 – Điều chỉnh SysTick](link ...)
-  [Canva – Phần 2](link ...)
-
----
-
-## 📘 Mô tả video
 - Điều chỉnh SysTick để thay đổi tần số nhấp nháy  
 - Công thức tính SysTick Clock  
 - Dùng `HAL_SYSTICK_Config()`  
 - Ứng dụng bài tập thay đổi tốc độ LED  
 
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
 
-## 🛠 Phần mềm sử dụng  
-- STM32CubeIDE  
+> [[7S - N16] VIdeo nhấp nháy LED với SysTick (HAL) trên STM32 – Phần 2 (Điều chỉnh tần số)](https://drive.google.com/file/d/1gvZQGouSlzX1wQB8T25jtVudOyVjRGSu/view?usp=sharing)
 
-### 📥 Link tải phần mềm  
-[STM32CubeIDE – STMicroelectronics](link ...)
+Phần mềm sử dụng : KeilC, CubeMx, proteus
 
-### 📄 Link code  
-[Systick.zip – GitHub](link ...)
 
----
+### Phần 3. Video Modify SysTick + Bài tập LED
 
-# 4. Video SysTick với Thanh ghi + Mô phỏng + Thực tế
-
-### Video:
-- **[7S - N16] Nhấp nháy LED với SysTick – Phần 3 (Sử dụng thanh ghi)**  
-  [Video Phần 3 – Thanh ghi SysTick](link ...)
-  [Canva – Phần 3](link ...)
-
----
-
-## 📘 Mô tả video
 - Truy cập và cấu hình thanh ghi SysTick (CTRL, LOAD, VAL)  
 - Thay đổi tốc độ SysTick trực tiếp qua thanh ghi  
-- Mô phỏng trên phần mềm  
+- Mô phỏng trên phần mềm proteus
 - Video demo thực tế  
 
----
 
-## 🛠 Phần mềm sử dụng  
-- STM32CubeIDE  
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_register)
 
-### 📥 Link tải phần mềm  
-[STM32CubeIDE – STMicroelectronics](link ...)
+> [[7S - N16] Video nhấp nháy LED với SysTick trên STM32 -  Phần 3 (sử dụng thanh ghi)](https://drive.google.com/file/d/1-Qr87zFan58AQnEX1nsw6BVvi1VKZUXl/view?usp=sharing)
 
-### 📄 Link code  
-[STM32_GK – GitHub](link ...)
 
----
+Phần mềm sử dụng : STM32CubeIDE, CubeMx, proteus
 
-# 5. Video ứng dụng SysTick vào Project CK – Điều khiển Servo
 
-### Video:
-- **[7S - N16] Ứng dụng SysTick điều khiển servo (Module cho cá ăn)**  
-  [Video – SysTick Servo Application](link ...)
-  [Canva – Servo](link ...)
+### Phần 4. Ứng dụng SysTick – Điều khiển Servo
 
----
-
-## 📘 Mô tả video
 - Điều chế xung PWM bằng SysTick  
 - Điều khiển servo ở các góc khác nhau  
 - Ứng dụng thực tế: module cho cá ăn  
 - Demo phần cứng + phân tích code  
 
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/feeding_systick)
 
+Phần mềm sử dụng : STM32CubeIDE, CubeMx, proteus
 
-## 📎 Tài liệu
-- **Slide trình bày:**  
-  [Slide SysTick – Nhóm 16](link ...)
+## II. Báo cáo
+- **Slide trình bày:**  [Slide SysTick – Nhóm 16](https://github.com/giunzz/SYSTICK_STM32/blob/main/report/mid_term_systick.pdf)
 
-- **Báo cáo .docx:**  
-  [Report SysTick – Nhóm 16](link ...)
+- **Báo cáo .docx:**  [Report SysTick – Nhóm 16](https://github.com/giunzz/SYSTICK_STM32/blob/main/report/Embeded_Project_GK.pdf)
 
----
+- **Nhóm 16 – Thành viên**
 
-## 🛠 Phần mềm sử dụng  
-- STM32CubeIDE  
-
-### 📥 Link tải phần mềm  
-[STM32CubeIDE – STMicroelectronics](link ...)
-
-### 📄 Link code  
-[CaoY_Feeding – GitHub](link ...)
-
----
-
-# 📌 Google Sheet nộp bài  
-(Link …)
-
-## 👥 Nhóm 16 – Thành viên
-
-| Họ tên | MSSV |
-|-------|-------|
-| Hoàng Ngọc Dung | 23139006 |
-| Đoàn Minh Duy Bình | 23139005 |
-| Trần Hữu Dương | 23139009 |
-| Nguyễn Trần Minh Đức | 23139012 |
-| Cao Như Ý | 23139052 |
+1. Hoàng Ngọc Dung - 23139006 
+2. Đoàn Minh Duy Bình - 23139005 
+3. Trần Hữu Dương - 23139009 
+4. Nguyễn Trần Minh Đức - 23139012 
+5. Cao Như Ý - 23139052 

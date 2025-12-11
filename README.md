@@ -4,6 +4,7 @@
 
 ### Phần 1 – Tổng quan SysTick
 Video trình bày tổng quan lý thuyết về SysTick, gồm:
+
 - Khái niệm SysTick và vai trò trong STM32  
 - Nguyên lý hoạt động  
 - Ý nghĩa các thanh ghi  
@@ -16,6 +17,7 @@ Video trình bày tổng quan lý thuyết về SysTick, gồm:
 
 ### Phần 2 – Các biến & hàm liên quan SysTick
 Video trình bày:
+
 - Các biến – cấu trúc HAL liên quan SysTick  
 - Hàm callback & interrupt  
 - Thay đổi chu kỳ SysTick  
@@ -28,12 +30,12 @@ Video trình bày:
 ### Phần 1 - Nhấp nháy LED với Systick (HAL) trên STM32
 
 Trình bày ý nghĩa của các hàm có hẵn trong thư viện HAL
-Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
 
 > [[7S - N16] Video nhấp nháy LED với SysTick (HAL) – Phần 1](https://drive.google.com/file/d/17cQ2f_ty3O_-Vn1Wuj1U5wM46kwlum9t/view?usp=sharing)
 
 Phần mềm sử dụng : KeilC, CubeMx, proteus
 
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
 
 
 ### Phần 2 - Modify Systick (HAL) trên STM32
@@ -43,11 +45,11 @@ Phần mềm sử dụng : KeilC, CubeMx, proteus
 - Dùng `HAL_SYSTICK_Config()`  
 - Ứng dụng bài tập thay đổi tốc độ LED  
 
-Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
-
 > [[7S - N16] VIdeo nhấp nháy LED với SysTick (HAL) trên STM32 – Phần 2 (Điều chỉnh tần số)](https://drive.google.com/file/d/1gvZQGouSlzX1wQB8T25jtVudOyVjRGSu/view?usp=sharing)
 
 Phần mềm sử dụng : KeilC, CubeMx, proteus
+
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
 
 ## III. Thanh ghi SysTick 
 
@@ -56,13 +58,11 @@ Phần mềm sử dụng : KeilC, CubeMx, proteus
 - Mô phỏng trên phần mềm proteus
 - Video demo thực tế  
 
-
-Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_register)
-
 > [[7S - N16] Video nhấp nháy LED với SysTick trên STM32 -  Phần 3 (sử dụng thanh ghi)](https://drive.google.com/file/d/1-Qr87zFan58AQnEX1nsw6BVvi1VKZUXl/view?usp=sharing)
 
-
 Phần mềm sử dụng : STM32CubeIDE, CubeMx, proteus
+
+Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_register)
 
 
 ## III. Ứng dụng SysTick – Điều khiển Servo
@@ -81,10 +81,10 @@ Phần mềm sử dụng : STM32CubeIDE, CubeMx, proteus
 
 - **Báo cáo .docx:**  [Report SysTick – Nhóm 16](https://github.com/giunzz/SYSTICK_STM32/blob/main/report/Embeded_Project_GK.pdf)
 
-- **Nhóm 16 – Thành viên**
+- **Nhóm 16 – Thành viên:**
 
-1. Hoàng Ngọc Dung - 23139006 
-2. Đoàn Minh Duy Bình - 23139005 
-3. Trần Hữu Dương - 23139009 
-4. Nguyễn Trần Minh Đức - 23139012 
-5. Cao Như Ý - 23139052 
+    1. Hoàng Ngọc Dung - 23139006 
+    2. Đoàn Minh Duy Bình - 23139005 
+    3. Trần Hữu Dương - 23139009 
+    4. Nguyễn Trần Minh Đức - 23139012 
+    5. Cao Như Ý - 23139052 

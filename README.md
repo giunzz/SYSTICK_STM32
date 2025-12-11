@@ -13,8 +13,6 @@ Video trình bày tổng quan lý thuyết về SysTick, gồm:
 
 > [[7S - N16] Video tổng quan lý thuyết về Systick và cách thay đổi tốc độ trên STM32 (Phần 1)](https://drive.google.com/file/d/1188mG7XfajLIXDvEJkd8X1rKLGl1LyNT/view?usp=sharing) 
 
-
-
 ### Phần 2 – Các biến & hàm liên quan SysTick
 Video trình bày:
 

@@ -27,6 +27,7 @@ Video trình bày:
 
 ### Phần 1 - Nhấp nháy LED với Systick (HAL) trên STM32
 
+Trình bày ý nghĩa của các hàm có hẵn trong thư viện HAL
 Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL)
 
 > [[7S - N16] Video nhấp nháy LED với SysTick (HAL) – Phần 1](https://drive.google.com/file/d/17cQ2f_ty3O_-Vn1Wuj1U5wM46kwlum9t/view?usp=sharing)
@@ -35,7 +36,7 @@ Phần mềm sử dụng : KeilC, CubeMx, proteus
 
 
 
-### Phần 2 - Điều chỉnh tần số led sáng với Systick (HAL) trên STM32
+### Phần 2 - Modify Systick (HAL) trên STM32
 
 - Điều chỉnh SysTick để thay đổi tần số nhấp nháy  
 - Công thức tính SysTick Clock  
@@ -48,8 +49,7 @@ Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_HAL
 
 Phần mềm sử dụng : KeilC, CubeMx, proteus
 
-
-### Phần 3. Video Modify SysTick + Bài tập LED
+## III. Thanh ghi SysTick 
 
 - Truy cập và cấu hình thanh ghi SysTick (CTRL, LOAD, VAL)  
 - Thay đổi tốc độ SysTick trực tiếp qua thanh ghi  
@@ -65,7 +65,7 @@ Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/Systick_reg
 Phần mềm sử dụng : STM32CubeIDE, CubeMx, proteus
 
 
-### Phần 4. Ứng dụng SysTick – Điều khiển Servo
+## III. Ứng dụng SysTick – Điều khiển Servo
 
 - Điều chế xung PWM bằng SysTick  
 - Điều khiển servo ở các góc khác nhau  
@@ -76,7 +76,7 @@ Soure code: [Link](https://github.com/giunzz/SYSTICK_STM32/tree/main/feeding_sys
 
 Phần mềm sử dụng : STM32CubeIDE, CubeMx, proteus
 
-## II. Báo cáo
+## IV. Báo cáo
 - **Slide trình bày:**  [Slide SysTick – Nhóm 16](https://github.com/giunzz/SYSTICK_STM32/blob/main/report/mid_term_systick.pdf)
 
 - **Báo cáo .docx:**  [Report SysTick – Nhóm 16](https://github.com/giunzz/SYSTICK_STM32/blob/main/report/Embeded_Project_GK.pdf)
